@@ -14,6 +14,7 @@
 [![Dart](https://img.shields.io/badge/Dart-3.4+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 [![BLoC](https://img.shields.io/badge/State-BLoC%208-97CE4C?style=for-the-badge&logo=flutter&logoColor=white)](https://bloclibrary.dev)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%20%7C%20Android-44C8F5?style=for-the-badge&logo=apple&logoColor=white)](#-getting-started)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F5C044?style=for-the-badge)](LICENSE)
 
 [Features](#-features) ·
 [Screenshots](#-screenshots) ·
@@ -380,6 +381,12 @@ Contributions, issues and feature requests are welcome. Please keep to the exist
 1. One feature per directory under `lib/features/`, each with its own `bloc/`, `data_sources/`, `models/`, `repositories/`, `screens/` and `widgets/`.
 2. New dependencies are registered in `injection_container.dart` only.
 3. Run `build_runner` after changing a model, and make sure `flutter analyze` is clean.
+
+---
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
 
 ---
 
