@@ -50,10 +50,10 @@ ThemeData lightTheme = ThemeData(
       showUnselectedLabels: true,
       type: BottomNavigationBarType.fixed,
       selectedItemColor: RMColors.accent),
-  tabBarTheme: const TabBarTheme(
+  tabBarTheme: const TabBarThemeData(
     labelColor: RMColors.grey200,
   ),
-  cardTheme: const CardTheme(color: RMColors.white),
+  cardTheme: const CardThemeData(color: RMColors.white),
   cardColor: RMColors.white,
   elevatedButtonTheme: const ElevatedButtonThemeData(style: ButtonStyle()),
   textTheme: const TextTheme(
